@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Greet Exercise</title>
+    <link rel="stylesheet" href="greet.css">
+    <link href="https://fonts.googleapis.com/css?family=Supermercado+One" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Greet</h1>
+      <form class="user" action="index.html" method="post">
+        <label for="name">Name: </label>
+        <input type="text" name="name" placeholder="Enter your name" class="text">
+        <h1 class="counter">0</h1>
+        <br>
+        <div class="lang">
+          <input type="radio" name="lang" value="xhosa"><br><label for="isiXhosa">IsiXhosa</label>
+        </div>
+        <div class="lang">
+          <input type="radio" name="lang" value="english"><br><label for="isiXhosa">English</label>
+        </div>
+        <div class="lang">
+          <input type="radio" name="lang" value="sotho"><br><label for="isiXhosa">Sotho</label>
+        </div>
+        <br>
+        <button type="button" class="button" name="submit">Greet Me</button>
+      </form>
+      <p class="greeting">Hello</p>
+    </div>
+  </body>
+  <script src="greet.js" charset="utf-8"></script>
+</html>

@@ -1,0 +1,45 @@
+body{
+  margin: 0;
+  background-color: #42b4e6;
+  opacity: 50%;
+}
+input{
+  margin: 20px;
+}
+.container{
+  width: 70%;
+  background-color: lightgreen;
+  margin: auto;
+  padding-top: 5%;
+  padding-bottom: 10%;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: center;
+}
+h1{
+  font-size: 10em;
+  margin-bottom: 10px;
+  vertical-align: middle;
+}
+button{
+  margin-left:20%;
+}
+
+p{
+  font-size: 2em;
+  font-family: 'Supermercado One', cursive;
+}
+form h1{
+  font-size: 5em;
+  margin: 0;
+  display: inline-block;
+}
+.lang{
+  display: inline-block;
+  margin-top: -30px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+.lang input{
+  margin-bottom: 6px;
+}
