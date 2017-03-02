@@ -1,14 +1,18 @@
 body{
   margin: 0;
-  background-color: #42b4e6;
+  background-color: #77787b;
   opacity: 50%;
+  color: white;
+  font-weight: bolder;
+  font-family: sans-serif;;
 }
 input{
   margin: 20px;
 }
+
 .container{
   width: 70%;
-  background-color: lightgreen;
+  background-color: #0079c2;
   margin: auto;
   padding-top: 5%;
   padding-bottom: 10%;
@@ -20,26 +24,67 @@ h1{
   font-size: 10em;
   margin-bottom: 10px;
   vertical-align: middle;
+  color:#efc423;
 }
 button{
-  margin-left:20%;
+  margin-left:5%;
+  background-color: #47aa42;
+  border-style: solid;
+  border-color: #77787b;
+  padding: 10px;
+  color: white;
+  border-radius: 3px;
+
+}
+.button{
+  margin-left: -5%;
+  width: 200px;
+  padding: 5px;
+}
+.count{
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  margin-top: -20px;
+  overflow: hidden;
+}
+.reset{
+  margin-top: -30px;
 }
 
 p{
   font-size: 2em;
   font-family: 'Supermercado One', cursive;
+  color: #ed174f;
+}
+.name{
+  margin-left: 6%;
 }
 form h1{
   font-size: 5em;
   margin: 0;
   display: inline-block;
+  color:#ed174f;
+}
+form{
+  margin-left: 10px;
 }
 .lang{
   display: inline-block;
-  margin-top: -30px;
+  margin-top: -40px;
   margin-bottom: 10px;
-  margin-right: 10px;
+  margin-right: 20px;
 }
 .lang input{
   margin-bottom: 6px;
+}
+.text{
+  border-style: none;
+  background-color: #77787b;
+  padding: 5px;
+  width: 205px;
+  margin-left: 30px;
+}
+.radio{
+  color: #77787b;
 }
