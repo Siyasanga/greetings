@@ -3,13 +3,16 @@ var greeting = document.querySelector(".greeting");
 var sub = document.querySelector(".button");
 var namesGreeted = {};
 var counter = document.querySelector(".counter");
-if(typeof(localStorage.count)==undefined){
-  localStorage.setItem("count",0);
-}
 counter.innerHTML = localStorage.count;
+var rst = document.querySelector(".reset");
+rst.addEventListener('click',function(){
+  localStorage.count = 0;
+  namesGreeted = {};
+  counter.innerHTML = localStorage.count;
+});
 sub.addEventListener('click', function() {
   if(namesGreeted[text.value] !== undefined){
-    //update the DOM to display the counter
+    greeting.innerHTML = "Nice to see you again "+text.value+"!";
     return;
   }
   namesGreeted[text.value] = 1;
