@@ -3,6 +3,9 @@ var greeting = document.querySelector(".greeting");
 var sub = document.querySelector(".button");
 var namesGreeted = {};
 var counter = document.querySelector(".counter");
+if(typeof(localStorage.count) === 'undefined'){
+  localStorage.setItem("count",0);
+}
 counter.innerHTML = localStorage.count;
 var rst = document.querySelector(".reset");
 rst.addEventListener('click',function(){
