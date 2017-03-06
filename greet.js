@@ -8,11 +8,13 @@ if(typeof(localStorage.count) === 'undefined'){
 }
 counter.innerHTML = localStorage.count;
 var rst = document.querySelector(".reset");
+//Reseting the number of greetings and users greeted
 rst.addEventListener('click',function(){
   localStorage.count = 0;
   namesGreeted = {};
   counter.innerHTML = localStorage.count;
 });
+//Adding the hello message to the user
 sub.addEventListener('click', function() {
   if(namesGreeted[text.value] !== undefined){
     greeting.innerHTML = "Nice to see you again "+text.value+"!";
